@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"> 
+    <link href="css/style.css" rel="stylesheet">
+    <title>portfolio</title>
+</head>
+<body>
+    <header>
+
+     <!------------------------------------------------navbar------------------------------------------------------------->
+      <nav class=" fixed-top">
+           <div class="navbar">
+               <a class="logo ">
+                         <svg viewBox="0 0 197 39" class="logotype"><path d="M174 15a11 11 0 1 1-11 11 11 11 0 0 1 11-11m0 18a7 7 0 1 0-7-7 7 7 0 0 0 7 7M90 15a11 11 0 1 1-11 11 11 11 0 0 1 11-11m0 18a7 7 0 1 0-7-7 7 7 0 0 0 7 7m103 0a2 2 0 1 1-2 2 2 2 0 0 1 2-2M78 0H53v39h2V2h23V0zM20.4 0h-1L13 11l-4 7L3 8 1.5 9 12 27H0v2h20.2l-5.8 10h2.3l5.8-10h.5v-.8l3.6-6.2L33 33l1.6-1-11-19H36v-2H15.4l6-10.4-1-.6zM14 27l-4-7 4.2-7h7.2l4 7-4 7zM78 6H59v12h14v-2H61V8h17V6zm96 7a13 13 0 1 0 13 13 13 13 0 0 0-13-13zm0 18a5 5 0 1 1 5-5 5 5 0 0 1-5 5zm-18-18h-22v2h19.4l-11.2 16h-.2v.2l-.4.5.4.2v1h14v-2h-11.4l11.2-16h.2v-.4l.4-.5-.4-.2v-1zm-27 0h-15v2h15v-2zm-19 0h-2v26h2V13zm-20 0a13 13 0 1 0 13 13 13 13 0 0 0-13-13zm0 18a5 5 0 1 1 5-5 5 5 0 0 1-5 5zm54-12h-10v2h7.4l-7.7 10.8 1.7 1 8.4-11.8h.2v-.3l.4-.5-.4-.2v-1zm-15 0h-15v20h2V21h13v-2zm-56 3H59v17h2V24h12v-2zm120 9a4 4 0 1 0 4 4 4 4 0 0 0-4-4zm-37 6h-22v2h22v-2z"></path></svg>
+               </a>
+               <div class="container center menu " onclick="myFunction(this)">
+                         <div class="bar1"></div>
+                         <p class="bar2">menu</p>
+                         <div class="bar3"></div>
+               </div>
+               <ul class="navbar-content navbar-content-drop">
+                    <li class="home-dropdown">
+                         <a class="home  link2" href="#"> home</a>
+                         <div class="homediv"></div>
+                              <ul class="dropdown">
+                                   <li><a class="dropdownItem">blog index</a></li>
+                                   <li><a class="dropdownItem">blog index</a></li>
+                                   <li><a class="dropdownItem">blog index</a></li>
+                                   <li><a class="dropdownItem">blog index</a></li>
+                              </ul><!--/dropdown-->
+                    </li>
+
+                    <li class="portfolio-dropdown">       
+                         <a class="link-hover link2" href="#"> portfolio</a>
+                         <ul class="dropdown">
+                              <li><a class="dropdownItem">blog index</a></li>
+                              <li><a class="dropdownItem">blog index</a></li>
+                              <li><a class="dropdownItem">blog index</a></li>
+                              <li><a class="dropdownItem">blog index</a></li>
+                         </ul><!--/dropdown-->
+                    </li>
+
+                    <li><a class="link-hover" href="#"> ABOUT</a></li>
+                    <li><a class="link-hover" href="#"> Services</a></li>
+
+                    <li><a  class="blog-link link-hover" href="#"> Blog </a></li>
+
+                    <li><a class="link-hover" href="#"> Contact US</a></li>
+                    <li class="others">   
+                              <a class="link-hover" href="#"> OTHERS</a>
+                              <ul class="dropdown othersDrop">
+                                        <li><a class="dropdownItem"> blog index</a></li>
+                              </ul><!--/dropdown-->
+                    </li>
+               </ul><!--/navbar-content-->
+             
+           </div>
+       </nav>
+    
+      <!----------------------------------------------carsel--------------------------------------------------------------->
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+               <div class="overlay">
+                         <div class="carousel-item active pic">
+                              <div class="over"></div>
+                              <img src="imgs/image_06.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption  d-md-block">
+                                   <h1>We are Forzo Creative Agency.</h1>
+                                   <p>Forzo is an excellent solution for those who value their reputation and value style. Elegant and modern showcase will emphasize the attractiveness of your work.</p>
+                              </div>
+                         </div>
+                         <div class="carousel-item">
+                              <div class="over"></div>
+                              <img src="imgs/image_07.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption  d-md-block">
+                                   <h1>Elegant solution for you.</h1>
+                                   <p>Forzo is an excellent solution for those who value their reputation and value style. Elegant and modern showcase will emphasize the attractiveness of your work.</p>
+                              </div>
+                         </div>
+                         <div class="carousel-item">
+                              <div class="over"></div>
+                              <img src="imgs/image_08 (1).jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption  d-md-block">
+                                   <h1>Creative Digital Agency Portfolio.</h1>
+                                   <p>Forzo is an excellent solution for those who value their reputation and value style. Elegant and modern showcase will emphasize the attractiveness of your work.</p>
+                              </div>
+                         </div>
+               </div>
+          
+          </div>
+          </div>
+    </header>
+           <sidebar class="sidebar w-100  bg-light " id ="mobile-menu" class="menu-hidden">
+                    <div class="table-title sidebar-link">home</div>
+                    <ul class="tablee bg-dark">
+                         <li>home v2</li>
+                         <li>home v3</li>
+                         <li>home v4</li>
+                         <li>home v4</li>
+                    </ul>
+                    <div class="table-title sidebar-link">portfolio</div>
+                    <ul class="tablee bg-dark">
+                         <li>portfolio column 3</li>
+                         <li>portfolio fully</li>
+                         <li>portfolio creative</li>
+                    </ul>
+                    <ul class="w-100 slider-link-table  ps-0">
+                         <li class="sidebar-link"><a >About</a></li>
+                         <li class="sidebar-link"><a >Services</a></li>
+                         <li class="sidebar-link"><a >Blog</a></li>
+                         <li class="sidebar-link"><a >contact us</a></li>
+                         <li class="sidebar-link"><a >others</a></li>
+                    </ul>
+                    <button class="btn error bg-dark w-100 ">404 error</button>
+           </sidebar>
+
+
+
+
+      <!------------------------------------------------body---------------------------------------------------------------->
+     <main>
+          <!---------------------------------------------about-section-------------------------------------------------->
+         <section class="about-us container">
+              <div class="row">
+                     <div class="col-lg-6 col-sm-9 col-m-9 about-content px-sm-2">
+                          <div class="about-content-title">
+                          <h6>about us</h6>
+                          <h2>We are a creative <br>and ambitious team.</h2>
+                          </div>
+
+                          <p>Now there is more fashion. There is no so-called trends. Now chase after anything not necessary – nor for fashionable color nor the shape, nor for style. Here choose yourself like that, without any looking back, do your personal, home, small fashion, and all will be well.</p>
+
+                     </div>
+                     <span class="bg-dark about-span d-lg-block d-m-block d-sm-none col-lg-1"></span>
+                     <div class="col-lg-5 me-0 col-sm-9 col-m-9 about-img">
+                          <div class="img-container ">
+                               <div class="about-overlay"></div>
+                          </div>
+                     </div>
+               </div>
+         </section>
+
+          <!---------------------------------------------workss-section-------------------------------------------------->
+         <section class="works container-fluid mt-5">
+              <div class="works-header ">
+                   <h1 class="works-title">Latest Work.</h1>
+                   <p class="works-subtitle">I want to make beautiful things, even if it is no use to anyone
+                        , as the confrontation ugly things.<br> This – my intention.</p>
+              </div>
+              <div class="works-container">
+                   <figure class="works-item works-item1">
+                        <div class="workItem-overlay">
+                             <a class="plus">+</a>
+                             <div class="overlay-content">
+                                  <h1>BIG.</h1>
+                                  <h6>DESIGN</h6>
+                             </div>
+                        </div>
+                    </figure>
+                   <figure class="works-item works-item2">
+                        <div class="workItem-overlay">
+                              <a class="plus">+</a>
+                              <div class="overlay-content">
+                                   <h1>BIG.</h1>
+                                   <h6>DESIGN</h6>
+                              </div>
+                         </div>
+                   </figure>
+                   <figure class="works-item works-item3">
+                         <div class="workItem-overlay">
+                              <a class="plus">+</a>
+                              <div class="overlay-content overlay-content3">
+                                   <h1>BIG.</h1>
+                                   <h6>DESIGN</h6>
+                              </div>
+                         </div>
+                   </figure>
+                   <figure class="works-item works-item4">
+                         <div class="workItem-overlay">
+                              <a class="plus">+</a>
+                              <div class="overlay-content">
+                                   <h1>BIG.</h1>
+                                   <h6>DESIGN</h6>
+                              </div>
+                         </div>
+                   </figure>
+                   <figure class="works-item works-item5">
+                         <div class="workItem-overlay">
+                              <a class="plus">+</a>
+                              <div class="overlay-content">
+                                   <h1>BIG.</h1>
+                                   <h6>DESIGN</h6>
+                              </div>
+                         </div>
+                   </figure>
+                   <figure class="works-item works-item6">
+                         <div class="workItem-overlay">
+                              <a class="plus">+</a>
+                              <div class="overlay-content">
+                                   <h1>BIG.</h1>
+                                   <h6>DESIGN</h6>
+                              </div>
+                         </div>
+                   </figure>
+                   <figure class="works-item works-item7">  
+                        <div class="workItem-overlay">
+                              <a class="plus">+</a>
+                              <div class="overlay-content">
+                                   <h1>BIG.</h1>
+                                   <h6>DESIGN</h6>
+                              </div>
+                       </div>
+                    </figure>
+                  
+                   
+              </div>
+
+         </section>
+
+          <!---------------------------------------------icon-section-------------------------------------------------->
+          <section class="icons-section container">
+               <div class="row icon-items d-flex justify-content-between">
+                    <div class="col-lg-4 col-sm-6 icon-item ">
+                         <div class="icon-warp">
+                              <i class="fas fa-rocket icon icon_box"></i>
+                         </div>
+                         <div class="icon-content">
+                              <h2>AMAZING DESIGN</h2>
+                              <p>Dwelling and speedily ignorant steepest. Shy saw declared age pure rank debating.</p>
+                         </div>
+                    </div>
+                    <div class="col-lg-4 icon-item col-sm-6 ">
+                         <div class="icon-warp">
+                              <i class="fas fa-camera-retro icon icon_box"></i>
+                         </div>
+                         <div class="icon-content">
+                              <h2>PHOTOGRAPHY</h2>
+                              <p>Dwelling and speedily ignorant steepest. Shy saw declared age pure rank debating.</p>
+                         </div>
+                    </div>
+                    <div class="col-lg-4 icon-item col-sm-6 ">
+                         <div class="icon-warp">
+                              <i class="fas fa-calendar-alt icon icon_box"></i>
+                         </div>
+                         <div class="icon-content">
+                              <h2>PERFECT CODING</h2>
+                              <p>Dwelling and speedily ignorant steepest. Shy saw declared age pure rank debating.</p>
+                         </div>
+                         
+                    </div>
+                    <div class="col-lg-4 icon-item col-sm-6 ">
+                         <div class="icon-warp">
+                              <i class="fas fa-rocket icon icon_box"></i>
+                         </div>
+                         <div class="icon-content">
+                              <h2>FIXED PRICE</h2>
+                              <p>Dwelling and speedily ignorant steepest. Shy saw declared age pure rank debating.</p>
+                         </div>
+                         
+                    </div>
+                    <div class="col-lg-4 icon-item col-sm-6 ">
+                         <div class="icon-warp">
+                              <i class="fas fa-thumbtack icon icon_box"></i>
+                         </div>
+                         <div class="icon-content">
+                              <h2>DOCUMENTATION</h2>
+                              <p>Dwelling and speedily ignorant steepest. Shy saw declared age pure rank debating.</p>
+                         </div>
+                    </div>
+                    <div class="col-lg-4 icon-item col-sm-6 ">
+                         <div class="icon-warp">
+                              <i class="fas fa-rocket icon icon_box"></i>
+                         </div>
+                         <div class="icon-content">
+                              <h2>FONT ICONS</h2>
+                              <p>Dwelling and speedily ignorant steepest. Shy saw declared age pure rank debating.</p>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <!---------------------------------------------team-section-------------------------------------------------->
+          <section class="container-fluid mt-5 team">
+               <div class="works-header">
+                    <h1 class="works-title">Amazing Team.</h1>
+                    <p class="works-subtitle">Become a part of our amazing team.</p>
+               </div>
+               <div class="  mt-5">
+                    <div class="owl-carousel owl-theme">
+                      <div class=" item">
+                        <div class="cardd">
+                          <div class="img img1">
+                            <div class="card-body">
+                            <h5 class="card-title">designer</h5>
+                            <h2>lisa parker</h2>
+                            <span></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elito sint hic aliquid </p>
+                            <ul class="social-media">
+                              <li><a><i class="fab fa-medium social-media-icon" aria-hidden="true"></i></a></li>
+                              <li><a><i class="fab fa-behance social-media-icon" aria-hidden="true"></i></a></li>
+                              <li><a><i class="fab fa-dribbble social-media-icon" aria-hidden="true"></i></a></li>
+                              <li><a><i class="fab fa-facebook-f social-media-icon" aria-hidden="true"></i></a></li>
+                             </ul>  
+                          </div>
+                          </div> 
+                        </div>
+                      </div>
+                      <div class=" item">
+                        <div class="cardd ">
+                          <div class="img img2">         
+                            <div class="card-body">
+                            <h5 class="card-title">designer</h5>
+                            <h2>lisa parker</h2>
+                            <span></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elito sint hic aliquid !</p>
+                            <ul class="social-media">
+                              <li><a><i class="fab fa-medium social-media-icon" aria-hidden="true"></i></a></li>
+                              <li><a><i class="fab fa-behance social-media-icon" aria-hidden="true"></i></a></li>
+                              <li><a><i class="fab fa-dribbble social-media-icon" aria-hidden="true"></i></a></li>
+                              <li><a><i class="fab fa-facebook-f social-media-icon" aria-hidden="true"></i></a></li>
+                             </ul>         
+                             </div>
+                            </div>   
+                
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="cardd">
+                          <div class="img img3"> 
+                            <div class="card-body">
+                              <h5 class="card-title">designer</h5>
+                              <h2>lisa parker</h2>
+                              <span></span>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum at expedita delectus non, !</p>
+                              <ul class="social-media">
+                                <li><a><i class="fab fa-medium social-media-icon" aria-hidden="true"></i></a></li>
+                                <li><a><i class="fab fa-behance social-media-icon" aria-hidden="true"></i></a></li>
+                                <li><a><i class="fab fa-dribbble social-media-icon" aria-hidden="true"></i></a></li>
+                                <li><a><i class="fab fa-facebook-f social-media-icon" aria-hidden="true"></i></a></li>
+                               </ul>
+                           </div>
+                          </div>      
+                           
+                        </div>
+                      </div>
+                      
+                
+                    </div>
+                  </div>
+                    
+                    
+  
+          
+          </section>
+
+
+           <!---------------------------------------------news-section-------------------------------------------------->
+           <section class="container news">
+               <div class="works-header ">
+                    <h1 class="works-title">Latest Work.</h1>
+                    <p class="works-subtitle">I want to make beautiful things, even if it is no use to anyone
+                         , as the confrontation ugly things.<br> This – my intention.</p>
+               </div>
+               <div class="news-contant d-flex mt-5 row">
+                    <div class="news-item1 d-flex  col-sm-12 col-md-6">
+                         <div class="news-item1-content ">
+                              <h6>ART, DESIGN / 14 JUL 2019</h6>
+                              <h2><a>MODERN STREET ART AS A SOURCE OF INSPIRATION.</a></h2>
+                             
+                              <div class="read-more">read more</div>
+                         </div>
+                         <div class="news-item1-img ">
+                              <img src="https://bslthemes.site/forzo/wp-content/uploads/2019/07/image_news_big_01-420x420.jpg">
+                         </div>
+                    </div>
+                    <div class="news-item1  d-flex col-sm-12 col-md-6">
+                         <div class="news-item1-content">
+                              <h6>ART, DESIGN / 14 JUL 2019</h6>
+                              <h2><a>MODERN STREET ART AS A SOURCE OF INSPIRATION.</a></h2>
+                           
+                              <div class="read-more">read more</div>
+                         </div>
+                         <div class="news-item1-img ">
+                              <img src="https://bslthemes.site/forzo/wp-content/uploads/2019/07/image_news_big_02-420x420.jpg">
+                         </div>
+                    </div>
+               </div>
+           </section>
+
+    </main> 
+
+    <footer>
+         <div class="container">
+               <div class="first-footer ">
+                    <p><strong>Forzo</strong> – is an excellent solution for those who value their reputation and value style. Elegant and modern showcase will emphasize the attractiveness of your work.
+                    </p>
+                    <button class="btn get-started block">GET STARTED </button>
+               </div>
+               
+               <div class="last-footer">
+                    <h6>Phone: +1 (00) 123-45-67</h6>
+                    <h6>Email: info@forzo.com</h6>
+                    <h6>Address: 756 Livingston Street, Brooklyn, NY 11201</h6>
+                    <ul class="social-media">
+                         <li><a><i class="fab fa-medium social-media-icon" aria-hidden="true"></i></a></li>
+                         <li><a><i class="fab fa-behance social-media-icon" aria-hidden="true"></i></a></li>
+                         <li><a><i class="fab fa-dribbble social-media-icon" aria-hidden="true"></i></a></li>
+                         <li><a><i class="fab fa-facebook-f social-media-icon" aria-hidden="true"></i></a></li>
+
+                    </ul>
+               </div>
+         </div>
+         <div class="left-span"></div>
+    </footer>
+
+
+
+
+   <!--scripts-->  
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="js/jquery-3.6.0.min.js"></script> 
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+</html>
